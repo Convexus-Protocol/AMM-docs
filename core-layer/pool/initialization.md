@@ -1,18 +1,23 @@
+# 📜 Methods
+
 ## `ConvexusPool::initialize`
 
-### 📜 Method Call
+- 🔒 Access: Everyone
+- 📚 Description: 
+  - Sets the initial price for the pool. May only be called only once.
+  - Price is represented as a [Q64.96 value](/Convexus-Commons/Librairies/docs/README.md#how-to-encode-a-q6496-price).
+- 🔎 Event Logs emitted:
+  -  [`Initialize`](#convexuspoolinitialize-1)
 
-- Sets the initial price for the pool. May only be called once.
-- Access: Everyone
-- Price is represented as a sqrt(amountToken1/amountToken0) [Q64.96 value](/Convexus-Commons/Librairies/docs/README.md#how-to-encode-a-q6496-price)
+### 🖊️ Signature
 
 ```java
 @External
 public void initialize (BigInteger sqrtPriceX96)
 ```
 
-- `sqrtPriceX96`: the initial sqrt price of the pool as a [Q64.96](/Convexus-Commons/Librairies/docs/README.md#how-to-encode-a-q6496-price)
-- Emits a [`Initialize`](#convexuspoolinitializeeventlog) event log
+- Params:
+  - `sqrtPriceX96`: the initial sqrt price of the pool as a [Q64.96](/Convexus-Commons/Librairies/docs/README.md#how-to-encode-a-q6496-price)
 
 ### 🧪 Example call
 
@@ -26,16 +31,21 @@ public void initialize (BigInteger sqrtPriceX96)
 }
 ```
 
-## `ConvexusPool::Initialize (EventLog)`
+# 🔎 Event Logs
 
-### 🔎 Event Log
+## `ConvexusPool::Initialize`
+
+- 📚 Description: 
+  - Emitted exactly once by a pool when `initialize` is first called on the pool.
+  - `Mint`/`Burn`/`Swap` cannot be emitted by the pool before `Initialize`
+
+### 🖊️ Signature
 
 ```java
 @EventLog
 protected void Initialize (BigInteger sqrtPriceX96, int tick)
 ```
 
--  Emitted exactly once by a pool when `initialize` is first called on the pool. 
-- `Mint`/`Burn`/`Swap` cannot be emitted by the pool before `Initialize`
-- `sqrtPriceX96`: The initial sqrt price of the pool, as a [Q64.96](/Convexus-Commons/Librairies/docs/README.md#how-to-encode-a-q6496-price)
-- `tick`: The initial tick of the pool, i.e. log base 1.0001 of the starting price of the pool
+- Params:
+  - `sqrtPriceX96`: The initial sqrt price of the pool, as a [Q64.96](/Convexus-Commons/Librairies/docs/README.md#how-to-encode-a-q6496-price)
+  - `tick`: The initial tick of the pool, i.e. log base 1.0001 of the starting price of the pool
