@@ -1,6 +1,6 @@
 # 📜 Methods
 
-## `ConvexusPool::initialize`
+## `initialize`
 
 - 🔒 Access: Everyone
 - 📚 Description: 
@@ -33,17 +33,17 @@ public void initialize (BigInteger sqrtPriceX96)
 
 # 🔎 Event Logs
 
-## `ConvexusPool::Initialize`
+## `Initialized`
 
 - 📚 Description: 
   - Emitted exactly once by a pool when `initialize` is first called on the pool.
-  - `Mint`/`Burn`/`Swap` cannot be emitted by the pool before `Initialize`
+  - `Mint`/`Burn`/`Swap` cannot be emitted by the pool before `Initialized`
 
 ### 🖊️ Signature
 
 ```java
 @EventLog
-protected void Initialize (BigInteger sqrtPriceX96, int tick)
+protected void Initialized (BigInteger sqrtPriceX96, int tick)
 ```
 
 - Params:
