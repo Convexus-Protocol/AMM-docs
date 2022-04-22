@@ -4,12 +4,12 @@
 
 ## Core Layer Documentation
 
-* [Pool](core-layer/pool/index.md)
-  * [Initialization](core-layer/pool/initialization.md)
-  * [Swap](core-layer/pool/swap.md)
-  * [Liquidity](core-layer/pool/liquidity.md)
-  * [State](core-layer/pool/state.md)
-* [Factory](core-layer/factory/index.md)
+* [Convexus Pool](core-layer/pool/index.md)
+  * [Pool Initialization](core-layer/pool/initialization.md)
+  * [Tokens Swap](core-layer/pool/swap.md)
+  * [Pool Liquidity](core-layer/pool/liquidity.md)
+  * [Pool State](core-layer/pool/state.md)
+* [Convexus Pool Factory](core-layer/factory/index.md)
   * [Create a pool](core-layer/factory/create-pool.md)
   * [Settings](core-layer/factory/settings.md)
 

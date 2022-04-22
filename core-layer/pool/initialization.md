@@ -2,10 +2,11 @@
 
 ## `initialize`
 
-- 🔒 Access: Everyone
 - 📚 Description: 
   - Sets the initial price for the pool. May only be called only once.
   - Price is represented as a [Q64.96 value](/Convexus-Commons/Librairies/docs/README.md#how-to-encode-a-q6496-price).
+- 🔒 Access: 
+  - Everyone
 - 🔎 Event Logs emitted:
   -  [`Initialized`](#initialized)
 
@@ -36,8 +37,8 @@ public void initialize (BigInteger sqrtPriceX96)
 ## `Initialized`
 
 - 📚 Description: 
-  - Emitted exactly once by a pool when `initialize` is first called on the pool.
-  - `Mint`/`Burn`/`Swap` cannot be emitted by the pool before `Initialized`
+  - Emitted exactly once by a pool when [`initialize`](#initialize) is first called on the pool.
+  - `Mint`/`Burn`/`Swap` eventlogs cannot be emitted by the pool before `Initialized`
 
 ### 🖊️ Signature
 
