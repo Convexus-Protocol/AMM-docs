@@ -7,7 +7,7 @@
   - Sets the initial price for the pool. May only be called only once.
   - Price is represented as a [Q64.96 value](/Convexus-Commons/Librairies/docs/README.md#how-to-encode-a-q6496-price).
 - 🔎 Event Logs emitted:
-  -  [`Initialize`](#initialize-1)
+  -  [`Initialized`](#initialized)
 
 ### 🖊️ Signature
 
