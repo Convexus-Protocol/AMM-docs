@@ -21,18 +21,6 @@ These features make Convexus a flexible and efficient automated market maker:
 
 See our introduction [Medium](https://convexus.medium.com/convexus-cbf2db4ce9e7) article for more information.
 
-## **Core Layer Documentation**
-
-- [Convexus Pool](/Convexus-Core/Contracts/Pool/docs/README.md)
-
-## **Periphery Layer Documentation**
-
-- [Convexus SwapRouter](/Convexus-Periphery/Contracts/SwapRouter/docs/README.md)
-
-## **Commons Documentation**
-
-- [Convexus Librairies](/Convexus-Commons/Librairies/docs/README.md)
-
 ## **Frequently Asked Questions**
 
 <details>
