@@ -2,6 +2,10 @@
 
 * [Get Started](README.md)
 
+## Frequently Asked Questions
+
+* [Frequently Asked Questions](faq.md)
+
 ## Core Layer Documentation
 
 * [Convexus Pool](core-layer/pool/index.md)
