@@ -1,11 +1,8 @@
 <p align="center">
   <img 
     src="https://i.imgur.com/4RsDm76.png" 
-    width="550px"
-    alt="Convexus logo">
+    width="550px">
 </p>
-
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 # Convexus
 
