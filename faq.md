@@ -8,7 +8,7 @@ Please refer to the [`SwapRouter`](/periphery-layer/swaprouter/index.md) documen
 <details>
 <summary>❓ How to get the price of a pool ?</summary>
 
-Please refer to the [`Slot0`](/core-layer/pool/state.md#slot0) method and the structure definition. The `sqrtPriceX96` field contains the [Q64.96 price](/commons/q6496.md) of the pool. You can decode it to a human readable price like [this](/commons/q6496.md#how-to-decode-a-q64.96-to-a-floating-point-price).
+Please refer to the [`slot0`](/core-layer/pool/state.md#slot0) method. The `sqrtPriceX96` field contains the [Q64.96 price](/commons/q6496.md) of the pool. You can decode it to a human readable price like [this](/commons/q6496.md#how-to-decode-a-q64.96-to-a-floating-point-price).
 </details>
 
 
