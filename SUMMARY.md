@@ -27,9 +27,9 @@
   * Multihop Swaps
     * [Exact Input Swap](periphery-layer/swaprouter/multihop-swap/exact-input.md)
     * [Exact Output Swap](periphery-layer/swaprouter/multihop-swap/exact-output.md)
-* [Quoter](periphery-layer/quoter/index.md)
 * [Non Fungible Position Manager](periphery-layer/nfpos-manager/index.md)
   * [Create a position](periphery-layer/nfpos-manager/create-position.md)
+* [Quoter](periphery-layer/quoter/index.md)
 
 ## Commons Documentation
 

@@ -2,13 +2,13 @@
 
 A Convexus Pool is able to swap two tokens by calling its [`swap`](#swap) method. For doing so, it needs an amount of token to be swapped and a minimum price, so the user doesn't end with less tokens than expected.
 
-The [`swap`](#swap) method must **not** be called directly from a EOA address. Another contract outside of the Core Layer should handle the user tokens during the swap. Consequently, only another SCORE contract can deposit tokens to a Convexus Pool contract, otherwise the transaction will be reverted. In most use cases, the [SwapRouter](/Convexus-Periphery/Contracts/SwapRouter/docs/README.md#tokens-swap) contract may handle the swap.
+The [`swap`](#swap) method must **not** be called directly from a EOA address. Another contract outside of the Core Layer should handle the user tokens during the swap. Consequently, only another SCORE contract can deposit tokens to a Convexus Pool contract, otherwise the transaction will be reverted. In most use cases, the [SwapRouter](/periphery-layer/swaprouter/index.md) contract may handle the swap.
 
 Below is the entire process flow for swapping a fixed amount of `token0` to a Convexus Pool from a generic `Callee` contract.
 
 > 📝 Note
 > 
-> The methods implemented in the generic `Callee` contract isn't part of the Core layer, its implementation may be customized depending of your needs. In most cases, a `SwapRouter` is used for performing the swaps. See the [SwapRouter documentation](/Convexus-Periphery/Contracts/SwapRouter/docs/README.md#tokens-swap) for more information.
+> The methods implemented in the generic `Callee` contract isn't part of the Core layer, its implementation may be customized depending of your needs. In most cases, a `SwapRouter` is used for performing the swaps. See the [SwapRouter documentation](/periphery-layer/swaprouter/index.md) for more information.
 
 ![swap](uml/swap.svg)
 

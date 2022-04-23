@@ -4,7 +4,7 @@ The `Quoter` contract works similarly to the `SwapRouter` contract. It exposes m
 
 # **Tokens Swap**
 
-The `Quoter` is able to give a quote for swapping two tokens thanks to the [SwapRouter `exactInput*/exactOuput* methods`](/Convexus-Periphery/Contracts/SwapRouter/docs/README.md#tokens-swap). It supports multiple ways of quotations, depending of the user needs:
+The `Quoter` is able to give a quote for swapping two tokens thanks to the [SwapRouter `exactInput*/exactOuput* methods`](/periphery-layer/swaprouter/index.md). It supports multiple ways of quotations, depending of the user needs:
 
 - [`quoteExactInputSingle`](#quoterquoteexactinputsingle): Returns the amount out received for a given exact input but for a swap of a single pool
 - [`quoteExactInput`](#quoterquoteexactinput): Returns the amount out received for a given exact input swap without executing the swap
