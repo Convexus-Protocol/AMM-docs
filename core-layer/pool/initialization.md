@@ -21,8 +21,7 @@ These methods are useful for initializing a pool. In most use cases, you shouldn
 public void initialize (BigInteger sqrtPriceX96)
 ```
 
-- Params:
-  - `sqrtPriceX96`: the initial sqrt price of the pool as a [Q64.96](/commons/q6496.md)
+- `sqrtPriceX96`: the initial sqrt price of the pool as a [Q64.96](/commons/q6496.md)
 
 ### 🧪 Example call
 
@@ -54,6 +53,5 @@ protected void Initialized (
 )
 ```
 
-- Params:
-  - `sqrtPriceX96`: The initial sqrt price of the pool, as a [Q64.96](/commons/q6496.md)
-  - `tick`: The initial tick of the pool, i.e. log base 1.0001 of the starting price of the pool
+- `sqrtPriceX96`: The initial sqrt price of the pool, as a [Q64.96](/commons/q6496.md)
+- `tick`: The initial tick of the pool, i.e. log base 1.0001 of the starting price of the pool

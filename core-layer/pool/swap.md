@@ -6,7 +6,9 @@ The [`swap`](#swap) method must **not** be called directly from a EOA address. A
 
 Below is the entire process flow for swapping a fixed amount of `token0` to a Convexus Pool from a generic `Callee` contract.
 
-> ⚠️ Please note that the methods implemented in the generic `Callee` contract isn't part of the Core layer, so its implementation may be anything. In most cases, a `SwapRouter` is used for performing the swaps. See [SwapRouter documentation](/Convexus-Periphery/Contracts/SwapRouter/docs/README.md#tokens-swap) for more information.
+> 📝 Note
+> 
+> The methods implemented in the generic `Callee` contract isn't part of the Core layer, its implementation may be customized depending of your needs. In most cases, a `SwapRouter` is used for performing the swaps. See the [SwapRouter documentation](/Convexus-Periphery/Contracts/SwapRouter/docs/README.md#tokens-swap) for more information.
 
 ![swap](uml/swap.svg)
 
