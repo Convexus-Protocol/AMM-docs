@@ -1,7 +1,5 @@
 # 📖 Introduction
 
-The NonFungiblePositionManager contract manages users positions within a Convexus Pool. Each position mints a NFT owned by the liquidity provider that represents its position.
-
 In order to add liquidity to a ConvexusPool, the liquidity provider needs to deposit his tokens first using the [`deposit`](#deposit) method visible from `tokenFallback`, then call the [`mint`](#mint) method with its position details in order to retrieve the position NFT.
 
 # 📜 Write Methods
