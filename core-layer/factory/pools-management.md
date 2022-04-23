@@ -8,7 +8,7 @@ The Factory is the component responsible of creating new Pools within the Convex
 
 - 📚 Description: 
   - Creates a pool for the given two tokens and fee
-  - The newly deployed pool will be automatically added to the global [`pools`](settings.md#pools) list.
+  - The newly deployed pool will be automatically added to the global [`pools`](pools-management.md#pools) list.
 - 🔒 Access: 
   - Everyone
 
