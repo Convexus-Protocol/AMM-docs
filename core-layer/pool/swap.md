@@ -12,7 +12,7 @@ Below is the entire process flow for swapping a fixed amount of `token0` to a Co
 
 ![swap](uml/swap.svg)
 
-# 📜 Methods
+# 📜 Write Methods
 
 ## `swap`
 

@@ -2,7 +2,7 @@
 
 These methods are useful for initializing a pool. In most use cases, you shouldn't need to call these methods, as the `Convexus Pool Factory` will automatically call them on a new pool creation.
 
-# 📜 Methods
+# 📜 Write Methods
 
 ## `initialize`
 

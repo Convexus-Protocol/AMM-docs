@@ -1,5 +1,5 @@
 
-# 📜 Methods
+# 📜 Write Methods
 
 ## `mint`
 

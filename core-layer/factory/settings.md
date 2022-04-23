@@ -1,4 +1,4 @@
-# 📜 Methods
+# 📜 Write Methods
 
 ## `setOwner`
 
@@ -67,7 +67,6 @@ public void enableFeeAmount (
 }
 ```
 
-
 ## `setPoolContract`
 
 - 📚 Description: 
@@ -97,6 +96,8 @@ public void setPoolContract (
   },
 }
 ```
+
+# 👀 ReadOnly Methods
 
 ## `owner`
 

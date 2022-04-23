@@ -1,4 +1,4 @@
-# 📜 Methods
+# 📜 Write Methods
 
 ## `createPool`
 
