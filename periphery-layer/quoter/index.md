@@ -1,6 +1,6 @@
 # 📖 Introduction
 
-The `Quoter` is a contract that works similarly to the `SwapRouter` contract. It exposes readonly methods which allows getting the expected amount out or amount in for a given swap without executing the swap.
+The `Quoter` is a contract that works similarly to the `SwapRouter` contract. It exposes methods which allows getting the expected amount out or amount in for a given swap without executing the swap.
 
 # **Tokens Swap**
 
@@ -13,4 +13,6 @@ The `Quoter` is able to give a quote for swapping two tokens thanks to the [Swap
 
 -------------------------------------------------------------------------------------
 
-⚠️ The Quoter implementation cannot be used as readonly for now, as the goloop engine doesn't support calling write methods as readonly. See [this GitHub issue](https://github.com/icon-project/goloop/issues/71) for more information.
+> ⚠️ Warning
+> 
+> The Quoter implementation cannot be used as readonly for now, as the goloop engine doesn't support calling write methods as readonly. See [this GitHub issue](https://github.com/icon-project/goloop/issues/71) for more information.
