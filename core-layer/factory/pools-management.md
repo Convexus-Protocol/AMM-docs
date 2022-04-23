@@ -45,3 +45,57 @@ public Address createPool (
   },
 }
 ```
+
+# 👀 ReadOnly Methods
+
+## `poolsSize`
+
+- 📚 Description:
+  - Get the deployed pools list size
+
+### 🖊️ Signature
+
+```java
+@External(readonly = true)
+public byte[] poolsSize ()
+```
+
+## `pools`
+
+- 📚 Description:
+  - Get a deployed pools list item
+
+### 🖊️ Signature
+
+```java
+@External(readonly = true)
+public Address pools(int index)
+```
+
+- `index`: the index of the item to read from the deployed pools list
+
+
+## `getPool`
+
+- 📚 Description:
+  - Get a deployed pool address from its parameters
+
+### 🖊️ Signature
+
+```java
+@External(readonly = true)
+public Address getPool (
+  Address token0, 
+  Address token1, 
+  int fee
+)
+```
+
+- `token0`: One of the two tokens in the desired pool
+- `token1`: The other of the two tokens in the desired pool
+- `fee`: The desired fee for the pool ; divide this value by 10000 to get the percent value
+
+
+> 📝 Note
+> 
+> The `token0` and `token1` parameters can be inverted, it will return the same pool address

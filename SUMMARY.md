@@ -14,8 +14,9 @@
   * [Pool Liquidity](core-layer/pool/liquidity.md)
   * [Pool State](core-layer/pool/state.md)
 * [Convexus Pool Factory](core-layer/factory/index.md)
-  * [Create a pool](core-layer/factory/create-pool.md)
-  * [Settings](core-layer/factory/settings.md)
+  * [Factory Initialization](core-layer/factory/initialization.md)
+  * [Pools Management](core-layer/factory/pools-management.md)
+  * [Owner Methods](core-layer/factory/owner-methods.md)
 
 ## Periphery Layer Documentation
 
