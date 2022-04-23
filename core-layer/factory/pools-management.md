@@ -1,6 +1,6 @@
 # 📖 Introduction
 
-The Factory is the component responsible of creating new Pools withing the Convexus Protocol. Pools deployed directly by users won't be able to participate in the Convexus Protocol.
+The Factory is the component responsible of creating new Pools within the Convexus Protocol. Pools deployed directly by users won't be able to participate in the Convexus Protocol.
 
 # 📜 Write Methods
 
