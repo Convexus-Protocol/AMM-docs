@@ -20,6 +20,14 @@
 
 ## Periphery Layer Documentation
 
+* [Swap Router](periphery-layer/swaprouter/index.md)
+  * Single Swaps
+    * [Exact Input Swap](periphery-layer/swaprouter/single-swap/exact-input.md)
+    * [Exact Output Swap](periphery-layer/swaprouter/single-swap/exact-output.md)
+  * [Multihop Swaps](periphery-layer/swaprouter/index.md)
+    * [Exact Input Swap](periphery-layer/swaprouter/multihop-swap/exact-input.md)
+    * [Exact Output Swap](periphery-layer/swaprouter/multihop-swap/exact-output.md)
+* [Quoter](periphery-layer/quoter/index.md)
 
 ## Commons Documentation
 
