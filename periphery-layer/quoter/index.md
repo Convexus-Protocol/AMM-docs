@@ -1,6 +1,6 @@
 # 📖 Introduction
 
-The `Quoter` is a contract that works similarly to the `SwapRouter` contract. It exposes methods which allows getting the expected amount out or amount in for a given swap without executing the swap.
+The `Quoter` contract works similarly to the `SwapRouter` contract. It exposes methods which allows getting the expected amount out or amount in for a given swap without executing the swap.
 
 # **Tokens Swap**
 
