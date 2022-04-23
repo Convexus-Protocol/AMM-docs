@@ -8,7 +8,7 @@ Please refer to the [`SwapRouter`](/periphery-layer/swaprouter/index.md) documen
 <details>
 <summary>❓ How to get the price of a pool ?</summary>
 
-Please refer to the [`Slot0`](/core-layer/pool/state.md#slot0) method and the structure definition. The `sqrtPriceX96` field contains the [Q64.96 price](/commons/q6496.md) of the pool. You can decode it to a human readable price like [this](/commons/q6496.md#how-to-decode-a-q6496-to-a-floating-point-price).
+Please refer to the [`Slot0`](/core-layer/pool/state.md#slot0) method and the structure definition. The `sqrtPriceX96` field contains the [Q64.96 price](/commons/q6496.md) of the pool. You can decode it to a human readable price like [this](/commons/q6496.md#how-to-decode-a-q64.96-to-a-floating-point-price).
 </details>
 
 
@@ -22,7 +22,7 @@ Please refer to the [`poolsSize`](/core-layer/factory/pools-management.md#poolss
 <details>
 <summary>❓ How to provide liquidity to a pool ?</summary>
 
-Please refer to the [`NonFungiblePositionManager`](/periphery-layer/nfpos-manager/index.md) documentation. You will need first to deposit some funds using [`deposit`](/periphery-layer/nfpos-manager/create-position.md#deposit), then create a new position wrapped in a NFT using [`mint`](/periphery-layer/nfpos-manager/create-position.md#deposit). The NFT represents the liquidity you provided to the pool.
+Please refer to the [`NonFungiblePositionManager`](/periphery-layer/nfpos-manager/index.md) documentation. You will need first to deposit some funds using [`deposit`](/periphery-layer/nfpos-manager/create-position.md#deposit), then create a new position wrapped in a NFT using [`mint`](/periphery-layer/nfpos-manager/create-position.md#mint). The NFT represents the liquidity you provided to the pool.
 </details>
 
 

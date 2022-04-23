@@ -7,7 +7,7 @@ The Factory should be initialized right after its deployment in order to store t
 ## `setPoolContract`
 
 - 📚 Description: 
-  - Set the pool contract bytes to be newly deployed with [`createPool`](create-pool.md#createpool)
+  - Set the pool contract bytes to be newly deployed with [`createPool`](/core-layer/factory/pools-management.md#createpool)
 - 🔒 Access: 
   - Factory Owner
 

@@ -13,7 +13,7 @@ Liquidity methods lets you handle your position within the Convexus Pools. Liqui
 - 🔒 Access: 
   - Everyone
 - 🔎 Event Logs emitted:
-  -  [`Mint`](#mint)
+  -  [`Mint`](#mint-1)
 
 ### 🖊️ Signature
 
