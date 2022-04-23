@@ -26,7 +26,7 @@ private void exactInput (
 - `caller`: The method caller. This field is handled by tokenFallback
 - `tokenIn`: The tokenIn address. This field is handled by tokenFallback
 - `amountIn` The token amount sent. This field is handled by tokenFallback
-- `params` The parameters necessary for the multi-hop swap, encoded as [`ExactInputParams`](#swaprouterexactinputparams)
+- `params` The parameters necessary for the multi-hop swap, encoded as [`ExactInputParams`](#exactinputparams)
 
 ### 🧪 Example call
 
@@ -63,7 +63,7 @@ class ExactInputParams {
 }
 ```
 
-- `path`: A sequence of [`tokenIn`, `fee`, `tokenOut`], which are the variables needed to compute each pool contract address in our sequence of swaps. The multihop swap router code will automatically find the correct pool with these variables, and execute the swap needed within each pool in our sequence. Please see ["How to encode a Swap path"](/commons/swap-path.md#how-to-encode-a-swap-path) for more information about how to encode a path.
+- `path`: A sequence of [`tokenIn`, `fee`, `tokenOut`], which are the variables needed to compute each pool contract address in our sequence of swaps. The multihop swap router code will automatically find the correct pool with these variables, and execute the swap needed within each pool in our sequence. Please see the [Swap path documentation](/commons/swap-path.md#how-to-encode-a-swap-path) for more information about how to encode a path.
 - `recipient`: The destination address of the outbound asset-
 - `deadline`: The unix time after which a transaction will be reverted, to protect against long delays and the increased chance of large price swings therein
 - `amountOutMinimum`: The maximum amount of token0 willing to be swapped for the specified amountOut of token1

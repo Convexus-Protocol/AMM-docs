@@ -63,7 +63,7 @@ class ExactOutputParams {
 }
 ```
 
-- `path`: A sequence of [`tokenOut`, `fee`, `tokenIn`], which are the variables needed to compute each pool contract address in our sequence of swaps. For an exactOutput swap, the first swap that occurs is the swap which returns the eventual desired token. The multihop swap router code will automatically find the correct pool with these variables, and execute the swap needed within each pool in our sequence. Please see ["How to encode a Swap path"](/commons/swap-path.md#how-to-encode-a-swap-path) for more information about how to encode a path.
+- `path`: A sequence of [`tokenOut`, `fee`, `tokenIn`], which are the variables needed to compute each pool contract address in our sequence of swaps. For an exactOutput swap, the first swap that occurs is the swap which returns the eventual desired token. The multihop swap router code will automatically find the correct pool with these variables, and execute the swap needed within each pool in our sequence. Please see the [Swap path documentation](/commons/swap-path.md#how-to-encode-a-swap-path) for more information about how to encode a path.
 - `recipient`: The destination address of the outbound asset
 - `deadline`: The unix time after which a transaction will be reverted, to protect against long delays and the increased chance of large price swings therein
 - `amountOut`: The desired amount of outbound token after the swap
