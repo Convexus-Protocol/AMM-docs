@@ -1,4 +1,3 @@
-
 # How to encode a Swap path
 
 A **path** if a sequence of [`tokenIn`, `fee`, `tokenOut`], encoded in bytes.

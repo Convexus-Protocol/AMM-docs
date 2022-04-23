@@ -1,3 +1,6 @@
+# 📖 Introduction
+
+Liquidity methods lets you handle your position within the Convexus Pools. Liquidity providers are rewarded with transaction fees depending of the size of their position and their liquidity range.
 
 # 📜 Write Methods
 

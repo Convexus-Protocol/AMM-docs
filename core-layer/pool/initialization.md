@@ -1,6 +1,6 @@
 # 📖 Introduction
 
-These methods are useful for initializing a pool. In most use cases, you shouldn't need to call these methods, as the `Convexus Pool Factory` will automatically call them on a new pool creation.
+These methods are useful for initializing a Convexus Pool. In most use cases, you shouldn't need to call these methods, as the `Convexus Pool Factory` will automatically call them on a new pool creation.
 
 # 📜 Write Methods
 
