@@ -38,7 +38,7 @@ public PairAmounts swap (
 - `recipient`: The address to receive the output of the swap
 - `zeroForOne`: The direction of the swap, true for token0 to token1, false for token1 to token0
 - `amountSpecified`: The amount of the swap, which implicitly configures the swap as exact input (positive), or exact output (negative)
-- `sqrtPriceLimitX96`: The [Q64.96](/Convexus-Commons/Librairies/docs/README.md#how-to-encode-a-q6496-price) price limit. If zero for one, the price cannot be less than this
+- `sqrtPriceLimitX96`: The [Q64.96](/commons/q6496.md) price limit. If zero for one, the price cannot be less than this
 - `data`: Any data to be passed through to the callback
 - Returns: Amount of `token0` and `token1` swapped
 
@@ -122,7 +122,7 @@ protected void Swap (
 - `recipient`: The address that received the output of the swap
 - `amount0`: The delta of the token0 balance of the pool
 - `amount1`: The delta of the token1 balance of the pool
-- `sqrtPriceX96`: The sqrt(price) of the pool after the swap, as a [Q64.96](/Convexus-Commons/Librairies/docs/README.md#how-to-encode-a-q6496-price)
+- `sqrtPriceX96`: The sqrt(price) of the pool after the swap, as a [Q64.96](/commons/q6496.md)
 - `liquidity`: The liquidity of the pool after the swap
 - `tick`: The log base 1.0001 of price of the pool after the swap
 

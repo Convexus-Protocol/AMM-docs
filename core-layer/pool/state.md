@@ -51,7 +51,7 @@ class Slot0 {
 }
 ```
 
-- `sqrtPriceX96`: The current price of the pool as a sqrt(token1/token0) [Q64.96](/Convexus-Commons/Librairies/docs/README.md#how-to-encode-a-q6496-price) value
+- `sqrtPriceX96`: The current price of the pool as a sqrt(token1/token0) [Q64.96](/commons/q6496.md) value
 - `tick`: The current tick of the pool, i.e. according to the last tick transition that was run. This value may not always be equal to SqrtTickMath.getTickAtSqrtRatio(sqrtPriceX96) if the price is on a tick boundary.
 - `observationIndex`: The index of the last oracle observation that was written
 - `observationCardinality`: The current maximum number of observations that are being stored

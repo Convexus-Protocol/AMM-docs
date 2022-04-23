@@ -8,7 +8,7 @@ These methods are useful for initializing a pool. In most use cases, you shouldn
 
 - 📚 Description: 
   - Sets the initial price for the pool. May only be called only once.
-  - Price is represented as a [Q64.96 value](/Convexus-Commons/Librairies/docs/README.md#how-to-encode-a-q6496-price).
+  - Price is represented as a [Q64.96 value](/commons/q6496.md).
 - 🔒 Access: 
   - Everyone
 - 🔎 Event Logs emitted:
@@ -22,7 +22,7 @@ public void initialize (BigInteger sqrtPriceX96)
 ```
 
 - Params:
-  - `sqrtPriceX96`: the initial sqrt price of the pool as a [Q64.96](/Convexus-Commons/Librairies/docs/README.md#how-to-encode-a-q6496-price)
+  - `sqrtPriceX96`: the initial sqrt price of the pool as a [Q64.96](/commons/q6496.md)
 
 ### 🧪 Example call
 
@@ -55,5 +55,5 @@ protected void Initialized (
 ```
 
 - Params:
-  - `sqrtPriceX96`: The initial sqrt price of the pool, as a [Q64.96](/Convexus-Commons/Librairies/docs/README.md#how-to-encode-a-q6496-price)
+  - `sqrtPriceX96`: The initial sqrt price of the pool, as a [Q64.96](/commons/q6496.md)
   - `tick`: The initial tick of the pool, i.e. log base 1.0001 of the starting price of the pool
