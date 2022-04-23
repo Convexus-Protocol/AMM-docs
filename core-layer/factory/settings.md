@@ -1,3 +1,7 @@
+# 📖 Introduction
+
+The Factory gives information about its ownership and the active pools within the Convexus Protocol.
+
 # 📜 Write Methods
 
 ## `setOwner`
