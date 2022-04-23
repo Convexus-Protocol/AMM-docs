@@ -25,7 +25,7 @@ public Address createPool (
 
 > 📝 Note
 > 
-> `tokenA` and `tokenB` may be passed in either order: token0/token1 or token1/token0. tickSpacing is retrieved from the fee. The call will revert if the pool already exists, the fee is invalid, or the token arguments are invalid.
+> `tokenA` and `tokenB` may be passed in either order: `token0`/`token1` or `token1`/`token0`. `tickSpacing` is retrieved from the fee. The call will revert if the pool already exists, the fee is invalid, or the token arguments are invalid.
 
 
 ### 🧪 Example call
