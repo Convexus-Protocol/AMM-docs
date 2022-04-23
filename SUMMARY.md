@@ -22,5 +22,5 @@
 
 ## Commons Documentation
 
-* [Q64.96 price](commons/librairies/q6496.md)
-* [Swap Path](commons/librairies/swap-path.md)
+* [Q64.96 price](commons/q6496.md)
+* [Swap Path](commons/swap-path.md)
