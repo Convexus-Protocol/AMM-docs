@@ -4,7 +4,7 @@
 
 ## Frequently Asked Questions
 
-* [Frequently Asked Questions](faq.md)
+* [FAQ & Answers](faq.md)
 
 ## Core Layer Documentation
 
