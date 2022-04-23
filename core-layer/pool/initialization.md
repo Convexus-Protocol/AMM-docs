@@ -48,7 +48,10 @@ public void initialize (BigInteger sqrtPriceX96)
 
 ```java
 @EventLog
-protected void Initialized (BigInteger sqrtPriceX96, int tick)
+protected void Initialized (
+  BigInteger sqrtPriceX96, 
+  int tick
+)
 ```
 
 - Params:
