@@ -26,6 +26,10 @@ public void deposit (
 - `tokenIn`: The tokenIn address. This field is handled by tokenFallback
 - `amountIn` The token amount sent. This field is handled by tokenFallback
 
+> 📝 Note
+> 
+> This method also supports swapping native ICX, see [`depositIcx`](#depositicx)
+
 ### 🧪 Example call
 
 ```java
@@ -39,6 +43,31 @@ public void deposit (
       "method": "deposit"
     })
   }
+}
+```
+
+## `depositIcx`
+
+- 📚 Description: 
+  - Deposit native ICX to the `NonFungiblePositionManager`.
+- 🔒 Access: 
+  - Everyone
+
+### 🖊️ Signature
+
+```java
+@External
+@Payable
+public void depositIcx ()
+```
+
+### 🧪 Example call
+
+```java
+{
+  "to": NonFungiblePositionManager,
+  "method": "depositIcx",
+  "value": "0x21e19e0c9bab2400000"
 }
 ```
 

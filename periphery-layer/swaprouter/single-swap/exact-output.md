@@ -8,6 +8,17 @@ Because this example transfers in the inbound asset in anticipation of the swap 
 
 ## `exactOutputSingle`
 
+- 📚 Description: 
+  - Swaps as little as possible of one token for `amountOut` of another token
+- 🔒 Access: 
+  - Everyone
+
+> 📝 Note
+> 
+> This method also supports swapping native ICX, see [`exactOutputSingleIcx`](#exactoutputsingleicx)
+
+### 🖊️ Signature
+
 ```java
 // @External - this method is external through tokenFallback
 private void exactOutputSingle (
@@ -18,8 +29,6 @@ private void exactOutputSingle (
 )
 ```
 
-- Swaps as little as possible of one token for `amountOut` of another token
-- Access: Everyone
 - `caller`: The method caller. This field is handled by tokenFallback
 - `tokenIn`: The tokenIn address. This field is handled by tokenFallback
 - `amountInMaximum`: The maximum amount of `token0` willing to be swapped for the specified amountOut of `token1`. This field is handled by tokenFallback.
@@ -45,6 +54,43 @@ private void exactOutputSingle (
         "sqrtPriceLimitX96": "0x0" // We set this to zero - which makes this parameter inactive. In production, this value can be used to set the limit for the price the swap will push the pool to, which can help protect against price impact or for setting up logic in a variety of price-relevant mechanisms
       }
     })
+  },
+}
+```
+
+## `exactOutputSingleIcx`
+
+- 📚 Description: 
+  - Swaps as little as possible of native ICX for `amountOut` of another token
+- 🔒 Access: 
+  - Everyone
+
+### 🖊️ Signature
+
+```java
+@External
+@Payable
+public void exactOutputSingleIcx (ExactOutputSingleParams params)
+```
+
+- `params`: The parameters necessary for the swap, encoded as [`ExactOutputSingleParams`](#exactoutputsingleparams)
+
+### 🧪 Example call
+
+```java
+{
+  "to": SwapRouter,
+  "method": "exactOutputSingleIcx",
+  "value": "0xde0b6b3a7640000", // 10**18 
+  "params": {
+    "params": {
+      "tokenOut": token1,
+      "fee": "0xbb8", // 3000, 0.3%
+      "recipient": recipient,
+      "deadline": "0x61e92f6b", // in seconds
+      "amountOut": "0x1bc16d674ec80000", // 2 * 10**18
+      "sqrtPriceLimitX96": "0x0" // We set this to zero - which makes this parameter inactive. In production, this value can be used to set the limit for the price the swap will push the pool to, which can help protect against price impact or for setting up logic in a variety of price-relevant mechanisms
+    }
   },
 }
 ```

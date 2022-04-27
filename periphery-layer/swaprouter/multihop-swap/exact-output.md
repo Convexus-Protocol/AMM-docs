@@ -11,6 +11,10 @@ An exact output swap will swap a variable amount of the input token for a fixed 
 - 🔒 Access: 
   - Everyone
   
+> 📝 Note
+> 
+> This method also supports swapping native ICX, see [`exactOutputIcx`](#exactoutputicx)
+
 ### 🖊️ Signature
 
 ```java
@@ -46,6 +50,42 @@ private void exactOutput (
         "amountOut": "0x1bc16d674ec80000", // 2 * 10**18
       }
     })
+  },
+}
+```
+
+
+## `exactOutputIcx`
+
+- 📚 Description: 
+  - Swaps as little as possible of native ICX for `amountOut` of another token along the specified path (reversed)
+- 🔒 Access: 
+  - Everyone
+  
+### 🖊️ Signature
+
+```java
+@External
+@Payable
+public void exactOutputIcx (ExactOutputParams params)
+```
+
+- `params`: The parameters necessary for the swap, encoded as [`ExactOutputParams`](#exactoutputparams)
+
+### 🧪 Example call
+
+```java
+{
+  "to": SwapRouter, // equivalent to tokenIn
+  "method": "exactOutputIcx",
+  "value": "0xde0b6b3a7640000", // 10**18
+  "params": {
+    "params": {
+      "path": hex([token1, 3000, token2, 3000, token0]) // The parameter path is encoded as (tokenOut, fee, tokenIn/tokenOut, fee, tokenIn). The tokenIn/tokenOut field is the shared token between the two pools used in the multiple pool swap. In this case token2 is the "shared" token. For an exactOutput swap, the first swap that occurs is the swap which returns the eventual desired token. In this case, our desired output token is token1 so that swap happens first, and is encoded in the path accordingly.
+      "recipient": recipient,
+      "deadline": "0x61e92f6b", // in seconds
+      "amountOut": "0x1bc16d674ec80000", // 2 * 10**18
+    }
   },
 }
 ```

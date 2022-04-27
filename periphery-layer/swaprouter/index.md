@@ -11,6 +11,9 @@ The `SwapRouter` is able to swap two tokens thanks to the [ConvexusPool `swap`](
 - [`exactOutputSingle`](single-swap/exact-output.md#exactoutputsingle): Swaps as little as possible of one token for `amountOut` of another token
 - [`exactOutput`](multihop-swap/exact-output.md#exactoutput): Swaps as little as possible of one token for `amountOut` of another along the specified path (reversed)
 
+These methods also exist for swapping native ICX as an input token, see [`exactInputSingleIcx`](single-swap/exact-input.md#exactinputsingleicx), [`exactInputIcx`](multihop-swap/exact-input.md#exactinputicx), [`exactOutputSingleIcx`](single-swap/exact-output.md#exactoutputsingleicx) and
+[`exactOutputIcx`](multihop-swap/exact-output.md#exactoutputicx).
+
 Below is the entire process flow for swapping a fixed amount of `token0` to a Convexus Pool, using the `exactInputSingle` method from a Convexus Swap Router. The process flow is the same for `exactInput`, `exactOutputSingle` and `exactOutput`.
 
 
