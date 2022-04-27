@@ -4,9 +4,7 @@
     width="550px">
 </p>
 
-# Convexus
-
-## 📖 Introduction
+# 📖 Introduction
 
 Convexus introduces concentrated liquidity, giving individual liquidity providers (LPs) granular control over what price ranges their capital is allocated to. Individual positions are aggregated together into a single pool, forming one combined curve for users to trade against. Multiple fee tiers will be baked into the protocol allowing LPs to be appropriately compensated for taking on varying degrees of risk.
 
