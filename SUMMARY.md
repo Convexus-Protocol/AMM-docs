@@ -38,4 +38,4 @@
 * 
 ## Convexus SDK Documentation
 
-* [SDK](sdk/index.md)
+* [Coming soon](sdk/index.md)
