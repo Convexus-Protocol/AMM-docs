@@ -29,6 +29,7 @@
     * [Exact Output Swap](periphery-layer/swaprouter/multihop-swap/exact-output.md)
 * [Non Fungible Position Manager](periphery-layer/nfpos-manager/index.md)
   * [Create a position](periphery-layer/nfpos-manager/create-position.md)
+  * [Collect rewards](periphery-layer/nfpos-manager/collect-rewards.md)
 * [Quoter](periphery-layer/quoter/index.md)
 
 ## Commons Documentation
