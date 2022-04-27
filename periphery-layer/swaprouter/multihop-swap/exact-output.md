@@ -76,7 +76,7 @@ public void exactOutputIcx (ExactOutputParams params)
 
 ```java
 {
-  "to": SwapRouter, // equivalent to tokenIn
+  "to": SwapRouter,
   "method": "exactOutputIcx",
   "value": "0xde0b6b3a7640000", // 10**18
   "params": {

@@ -77,7 +77,7 @@ public void exactInputSingleIcx (ExactInputSingleParams params)
 
 ```java
 {
-  "to": SwapRouter, // equivalent to tokenIn
+  "to": SwapRouter,
   "method": "exactInputSingleIcx",
   "value": "0xde0b6b3a7640000", // 10**18
   "params": {
