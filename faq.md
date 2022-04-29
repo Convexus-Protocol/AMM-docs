@@ -32,3 +32,7 @@ Please refer to the [`NonFungiblePositionManager`](/periphery-layer/nfpos-manage
 Firstly, get the number of positions with the [`balanceOf`](https://docs.openzeppelin.com/contracts/3.x/api/token/erc721#IERC721-balanceOf-address-) method from the `NonFungiblePositionManager` using your address, then call [`tokenOfOwnerByIndex`](https://docs.openzeppelin.com/contracts/3.x/api/token/erc721#IERC721Enumerable-tokenOfOwnerByIndex-address-uint256-), with an index starting from 0 to the value returned by `balanceOf`. You can get the details of the position using the `positions` method.
 </details>
 
+
+---
+
+Can't find your answer here ? Feel free to ask your question to the [Convexus #developer](https://discord.gg/9Nhx3A6WTF) channel !
