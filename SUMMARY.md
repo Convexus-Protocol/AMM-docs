@@ -30,6 +30,7 @@
 * [Non Fungible Position Manager](periphery-layer/nfpos-manager/index.md)
   * [Create a position](periphery-layer/nfpos-manager/create-position.md)
   * [Collect rewards](periphery-layer/nfpos-manager/collect-rewards.md)
+  * [Modify a position](periphery-layer/nfpos-manager/modify-position.md)
 * [Quoter](periphery-layer/quoter/index.md)
   * Single Swaps
     * [Exact Input Quote](periphery-layer/quoter/single-swap/exact-input.md)

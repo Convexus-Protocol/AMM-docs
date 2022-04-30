@@ -78,6 +78,8 @@ public void depositIcx ()
   - Call this when the pool does exist and is initialized. Note that if the pool is created but not initialized, the call will fail.
 - 🔒 Access: 
   - Everyone
+- 🚩 Requirements:
+  - The liquidity provider should have deposited the correct amount of tokens beforehand (see [`deposit`](#deposit))
 - 🔎 Event Logs emitted:
   - [`IncreaseLiquidity`](#increaseliquidity)
 
@@ -109,7 +111,7 @@ public MintResult mint (
       "amount1Desired": "0x21e19e0c9bab2400000", // 10000 * 10**18
       "amount0Min": "0", // Shouldn't be 0 in production
       "amount1Min": "0", // Shouldn't be 0 in production
-      "recipient": recipient, // 
+      "recipient": recipient,
       "deadline": "0x61e92f6b"
     }
   }
