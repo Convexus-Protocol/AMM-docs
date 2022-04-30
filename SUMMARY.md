@@ -31,6 +31,12 @@
   * [Create a position](periphery-layer/nfpos-manager/create-position.md)
   * [Collect rewards](periphery-layer/nfpos-manager/collect-rewards.md)
 * [Quoter](periphery-layer/quoter/index.md)
+  * Single Swaps
+    * [Exact Input Quote](periphery-layer/quoter/single-swap/exact-input.md)
+    * [Exact Output Quote](periphery-layer/quoter/single-swap/exact-output.md)
+  * Multihop Swaps
+    * [Exact Input Quote](periphery-layer/quoter/multihop-swap/exact-input.md)
+    * [Exact Output Quote](periphery-layer/quoter/multihop-swap/exact-output.md)
 
 ## Commons Documentation
 
