@@ -7,7 +7,7 @@ After creating an active position on a pool, the fees generated from swap transa
 ## `collect`
 
 - 📚 Description: 
-  - Collects up to a maximum amount of fees owed to a specific position to the recipient.
+  - Collects up to a maximum amount of fees owed to a specific position to the recipient. May also be used after decreasing the liquidity in order to get back the owed tokens.
 - 🔒 Access: 
   - Everyone
 - 🔎 Event Logs emitted:

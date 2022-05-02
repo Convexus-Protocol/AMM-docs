@@ -50,6 +50,7 @@ public IncreaseLiquidityResult increaseLiquidity (
 
 - 📚 Description: 
   - Decreases the amount of liquidity in a position and accounts it to the position
+  - After decreasing the liquidity, the tokens may be retrieved by calling the [`collect`](collect-rewards.md#collect) method
 - 🔒 Access:
   - Owner or approved address of the NFT position
 - 🚩 Requirements:
