@@ -4,7 +4,7 @@
 
 ## Core Layer 
 
-| <div style="width:150px">Name</div> | Address                         |
+| Name | <div style="min-width:350px">Address</div>                     |
 |------------------------|----------------------------------------------|
 | Factory                | `cx923993ec24429b97a1eb39af7745fb31121b1905` |
 | BNUSD/USDC Pool        | `cx4f5661a3dfaafbc11d13d3ea80474870b37369ca` |
@@ -14,7 +14,7 @@
 
 ## Periphery Layer 
 
-| <div style="width:150px">Name</div> | Address                         |
+| Name | <div style="min-width:350px">Address</div>                     |
 |------------------------|----------------------------------------------|
 | Swap Router            | `cx8cbd8b4a66add08e02a8e3ddcab206c7656ebd56` |
 | Position Descriptor    | `cxad0c5bc94b8356ab71c6f7dd17550170bb98ccfc` |
@@ -25,7 +25,7 @@
 
 ## Tokens 
 
-| <div style="width:150px">Symbol</div> | Address       |
+| Symbol | <div style="min-width:350px">Address</div>   |
 |--------|----------------------------------------------|
 | BNUSD  | `cx7a5be2907bc1f4d6fae0462df08e7a21972d7347` |
 | USDC   | `cxd57fe1c5e63385f412b814634102609e8a987e3a` |
