@@ -35,7 +35,7 @@ Firstly, get the number of positions with the [`balanceOf`](https://docs.openzep
 <details>
 <summary>❓ How to remove my position from a pool ?</summary>
 
-Please refer to the [`NonFungiblePositionManager`](/periphery-layer/nfpos-manager/modify-position) documentation. You will need first to decrease the whole position liquidity using [`decreaseliquidity`](/periphery-layer/nfpos-manager/modify-position#decreaseliquidity), collect the tokens previously deposited using [`collect`](/periphery-layer/nfpos-manager/collect-rewards#collect) then delete the position with [`burn`](/periphery-layer/nfpos-manager/modify-position.md#burn).
+Please refer to the [`NonFungiblePositionManager`](/periphery-layer/nfpos-manager/modify-position.md) documentation. You will need first to decrease the whole position liquidity using [`decreaseliquidity`](/periphery-layer/nfpos-manager/modify-position.md#decreaseliquidity), collect the tokens previously deposited using [`collect`](/periphery-layer/nfpos-manager/collect-rewards.md#collect) then delete the position with [`burn`](/periphery-layer/nfpos-manager/modify-position.md#burn).
 </details>
 
 
