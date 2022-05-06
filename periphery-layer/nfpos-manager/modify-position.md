@@ -87,6 +87,37 @@ public PairAmounts decreaseLiquidity (
 }
 ```
 
+
+## `burn`
+
+- 📚 Description: 
+  - Burns a token ID, which deletes it from the NFT contract
+- 🔒 Access:
+  - Owner or approved address of the NFT position
+- 🚩 Requirements:
+  - The token must have 0 liquidity and all tokens must be collected first
+
+### 🖊️ Signature
+
+```java
+@External
+public void burn (BigInteger tokenId)
+```
+
+- `tokenId`: The ID of the token that is being burned
+
+### 🧪 Example call
+
+```java
+{
+  "to": NonFungiblePositionManager,
+  "method": "burn",
+  "params": {
+    "tokenId": "0x123",
+  }
+}
+```
+
 # ⚙️ Structures
 
 ## `IncreaseLiquidityParams`
