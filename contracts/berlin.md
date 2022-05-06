@@ -34,7 +34,7 @@
 
 > How to get ICX ?
 
-ICX Faucet: https://faucet.ibriz.ai/
+ICX Faucet: [https://faucet.ibriz.ai/](https://faucet.ibriz.ai/)
 
 > How to get IRC2 tokens? 
 

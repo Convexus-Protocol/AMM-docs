@@ -34,11 +34,11 @@
 
 > How to get ICX ?
 
-ICX Faucet: https://faucet.ibriz.ai/
+ICX Faucet: [https://faucet.ibriz.ai/](https://faucet.ibriz.ai/)
 
 > How to get IRC2 tokens? 
 
 Trade the ICX on the Testnet Balanced & OMM : 
 
-- TestNet Balanced: https://test.balanced.network
-- TestNet OMM: https://test.omm.finance
+- TestNet Balanced: [https://test.balanced.network](https://test.balanced.network)
+- TestNet OMM: [https://test.omm.finance](https://test.omm.finance)
