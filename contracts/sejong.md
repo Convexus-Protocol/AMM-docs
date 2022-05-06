@@ -1,10 +1,8 @@
-# 🌐 Network: Sejong
-
 # Contracts
 
 ## Core Layer
 
-| Name | <div style="min-width:350px">Address</div>                     |
+| Name | Address &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 |------------------------|----------------------------------------------|
 | Factory                | `cx4d21f894d5c2f1f172e5b6aed171dd650d3165f6` |
 | BNUSD/USDC Pool        | `cx42f7cd1de56f9010a898116e5c88a063e33b67fe` |
@@ -14,7 +12,7 @@
 
 ## Periphery Layer
 
-| Name | <div style="min-width:350px">Address</div>                     |
+| Name | Address &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 |------------------------|----------------------------------------------|
 | Swap Router            | `cx1e6129d4ff4fc5e58daae80966cbb4b1a4f8ea7c` |
 | Position Descriptor    | `cx0c4456bb81851737f1e26007615e05c1d1cbac67` |
@@ -25,7 +23,7 @@
 
 ## Tokens
 
-| Symbol | <div style="min-width:350px">Address</div>   |
+| Symbol | Address &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 |--------|----------------------------------------------|
 | BNUSD  | `cx5838cb516d6156a060f90e9a3de92381331ff024` |
 | USDC   | `cx599d58885e5b1736c934fca7e53e04c797ab05be` |

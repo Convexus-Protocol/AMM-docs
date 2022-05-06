@@ -2,11 +2,11 @@
 
 * [Get Started](README.md)
 
-## Frequently Asked Questions
+## ❓ Frequently Asked Questions
 
 * [FAQ & Answers](faq.md)
 
-## Core Layer Documentation
+## 🔴 Core Layer Documentation
 
 * [Convexus Pool](core-layer/pool/index.md)
   * [Pool Initialization](core-layer/pool/initialization.md)
@@ -18,7 +18,7 @@
   * [Pools Management](core-layer/factory/pools-management.md)
   * [Owner Methods](core-layer/factory/owner-methods.md)
 
-## Periphery Layer Documentation
+## ⭕ Periphery Layer Documentation
 
 * [Swap Router](periphery-layer/swaprouter/index.md)
   * Single Swaps
@@ -39,16 +39,16 @@
     * [Exact Input Quote](periphery-layer/quoter/multihop-swap/exact-input.md)
     * [Exact Output Quote](periphery-layer/quoter/multihop-swap/exact-output.md)
 
-## Commons Documentation
+## 📕 Commons Documentation
 
 * [Q64.96 price](commons/q6496.md)
 * [Swap Path](commons/swap-path.md)
 * 
-## Convexus SDK Documentation
+## ⚙️ Convexus SDK Documentation
 
 * [Coming soon](sdk/index.md)
 
-## Convexus Contracts
+## 📝 Convexus Contracts
 
-* [Sejong](contracts/sejong.md)
-* [Berlin](contracts/berlin.md)
+* [🌐 Sejong](contracts/sejong.md)
+* [🌐 Berlin](contracts/berlin.md)
