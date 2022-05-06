@@ -1,6 +1,6 @@
-# Contracts
+# 📝 Contracts
 
-## Core Layer 
+## 🔴 Core Layer
 
 | Name | Address |
 |------------------------|----------------------------------------------|
@@ -10,7 +10,7 @@
 | SICX/BNUSD Pool        | `cx67c9c8f23a51bcb0cd5915e512a10b81817fdb49` |
 
 
-## Periphery Layer 
+## ⭕ Periphery Layer
 
 | Name | Address |
 |------------------------|----------------------------------------------|
@@ -21,7 +21,7 @@
 | Quoter                 | `cxfdc1c03cde8f9758fc686c77b9d5cce06e7632ea` |
 
 
-## Tokens 
+## 🪙 Tokens
 
 | Symbol | Address |
 |--------|----------------------------------------------|
@@ -30,7 +30,7 @@
 | SICX   | `cxb59c0d63efab0c1b02aac378f7355de82ff33337` |
 
 
-# Faucets
+# 🚰 Faucets
 
 > How to get ICX ?
 
