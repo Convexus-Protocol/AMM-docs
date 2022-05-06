@@ -4,7 +4,7 @@
 
 ## [ ❓ FAQ ]
 
-* [FAQ & Answers](faq.md)
+* [FAQ & Answers](faq/index.md)
 
 ## [ 🔴 Core Layer ]
 

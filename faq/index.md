@@ -35,4 +35,4 @@ Firstly, get the number of positions with the [`balanceOf`](https://docs.openzep
 
 ---
 
-Can't find your answer here ? Feel free to ask your question to the [Convexus #developer](https://discord.gg/9Nhx3A6WTF) channel !
+Can't find your answer here ? Feel free to ask your question to the [Convexus #developer](https://discord.convexus.net/) Discord channel !
