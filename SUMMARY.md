@@ -8,12 +8,12 @@
 
 ## [ 🔴 Core Layer ]
 
-* [Convexus Pool](core-layer/pool/index.md)
+* [Pool](core-layer/pool/index.md)
   * [Pool Initialization](core-layer/pool/initialization.md)
   * [Tokens Swap](core-layer/pool/swap.md)
   * [Pool Liquidity](core-layer/pool/liquidity.md)
   * [Pool State](core-layer/pool/state.md)
-* [Convexus Pool Factory](core-layer/factory/index.md)
+* [Pool Factory](core-layer/factory/index.md)
   * [Factory Initialization](core-layer/factory/initialization.md)
   * [Pools Management](core-layer/factory/pools-management.md)
   * [Owner Methods](core-layer/factory/owner-methods.md)
