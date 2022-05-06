@@ -38,4 +38,4 @@ ICX Faucet: [https://faucet.ibriz.ai/](https://faucet.ibriz.ai/)
 
 > How to get IRC2 tokens? 
 
-A Faucet is coming, in the meantime contact Spl3en on the Convexus Discord
+A Faucet is coming, in the meantime contact Spl3en on the [Convexus Discord](https://discord.convexus.net/) channel.
