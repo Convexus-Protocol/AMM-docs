@@ -43,6 +43,7 @@
 
 * [Q64.96 price](commons/q6496.md)
 * [Swap Path](commons/swap-path.md)
+* [Ticks Maths](commons/ticks.md)
 
 ## [ ⚙️ Convexus SDK ]
 
