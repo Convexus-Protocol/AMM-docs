@@ -14,22 +14,20 @@ Conceptually, there is a tick at every price 𝑝 that is an integer power of 1.
 
 $$𝑝(𝑖) = 1.0001^𝑖$$
 
-This has the desirable property of each tick being a .01% (1 basis point) price movement away from each of its neighboring ticks. For technical reasons, pools actually track ticks at every square root price that is an integer power of $\sqrt{1.0001}$. Consider the above equation, transformed into square root price space:
+This has the desirable property of each tick being a .01% (1 basis point) price movement away from each of its neighboring ticks. For technical reasons, pools actually track ticks at every square root price that is an integer power of $$\sqrt{1.0001}$$ . Consider the above equation, transformed into square root price space:
 
 
 $$\sqrt{𝑝}(𝑖) = \sqrt{1.0001}^𝑖 = 1.0001^{𝑖/2}$$
 
 As an example:
 
-$\sqrt{p}(0)$ — the square root price at tick 0 — is equal to 1, 
-
-$\sqrt{p}(1)$ is $\sqrt{1.0001}$ ≈ 1.00005, and 
-
-$\sqrt{p}(-1)$ is $\frac{1}{\sqrt{1.0001}}$ ≈ 0.99995.
+-  $$\sqrt{p}(0)$$ — the square root price at tick 0 — is equal to 1, 
+-  $$\sqrt{p}(1)$$ is $$\sqrt{1.0001}$$ ≈ 1.00005, and 
+-  $$\sqrt{p}(-1)$$ is $$\frac{1}{\sqrt{1.0001}}$$ ≈ 0.99995.
 
 When liquidity is added to a range, if one or both of the ticks is not already used as a bound in an existing position, that tick is *initialized*.
 
-Not every tick can be initialized. The pool is instantiated with a parameter, tickSpacing (𝑡𝑠 ); only ticks with indexes that are divisible by tickSpacing can be initialized. For example, if tickSpacing is 2, then only even ticks (...-4, -2, 0, 2, 4...) can be initialized. 
+Not every tick can be initialized. The pool is instantiated with a parameter, tickSpacing; only ticks with indexes that are divisible by tickSpacing can be initialized. For example, if tickSpacing is 2, then only even ticks (...-4, -2, 0, 2, 4...) can be initialized. 
 
 Small choices for tickSpacing allow tighter and more precise ranges, but may cause swaps to be more steps-intensive (since each initialized tick that a swap crosses imposes a step cost on the swapper).
 
