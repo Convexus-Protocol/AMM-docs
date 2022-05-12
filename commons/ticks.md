@@ -21,9 +21,11 @@ $$\sqrt{𝑝}(𝑖) = \sqrt{1.0001}^𝑖 = 1.0001^{𝑖/2}$$
 
 As an example:
 
--  $\sqrt{p}(0)$ — the square root price at tick 0 — is equal to 1, 
--  $\sqrt{p}(1)$ is $\sqrt{1.0001}$ ≈ 1.00005, and 
--  $\sqrt{p}(-1)$ is $\frac{1}{\sqrt{1.0001}}$ ≈ 0.99995.
+$\sqrt{p}(0)$ — the square root price at tick 0 — is equal to 1, 
+
+$\sqrt{p}(1)$ is $\sqrt{1.0001}$ ≈ 1.00005, and 
+
+$\sqrt{p}(-1)$ is $\frac{1}{\sqrt{1.0001}}$ ≈ 0.99995.
 
 When liquidity is added to a range, if one or both of the ticks is not already used as a bound in an existing position, that tick is *initialized*.
 
