@@ -7,7 +7,7 @@
 | Factory                | `cx4d21f894d5c2f1f172e5b6aed171dd650d3165f6` |
 | BNUSD/USDC Pool        | `cx42f7cd1de56f9010a898116e5c88a063e33b67fe` |
 | ICX/USDC Pool          | `cx6a31c9e0994c97b0b32e858effb80d4d91e5c497` |
-| SICX/BNUSD Pool        | `cxc6547768bb7a0378b3b2f4ba2bf796b651b4a4c2` |
+| SICX/USDC Pool         | `cxc6547768bb7a0378b3b2f4ba2bf796b651b4a4c2` |
 
 
 ## ⭕ Periphery Layer
