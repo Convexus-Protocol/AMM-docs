@@ -70,7 +70,7 @@ public PairAmounts swap (
   - For security purposes, the caller of this method should be checked to be a `Convexus Pool` deployed by the canonical [`Convexus Pool Factory`](/core-layer/factory/index.md). See `CallbackValidation::verifyCallback` for more information.
   - `amount0Delta` and `amount1Delta` can both be 0 if no tokens were swapped.
 - 🔒 Access: 
-  - Everyone (must be a contract, EOA will fail)
+  - A Convexus Pool (should be checked with `CallbackValidation::verifyCallback`)
 
 ### 🖊️ Signature
 
