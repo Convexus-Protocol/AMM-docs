@@ -8,6 +8,7 @@
 | BNUSD/USDC Pool        | `cx42f7cd1de56f9010a898116e5c88a063e33b67fe` |
 | ICX/USDC Pool          | `cx6a31c9e0994c97b0b32e858effb80d4d91e5c497` |
 | SICX/USDC Pool         | `cxc6547768bb7a0378b3b2f4ba2bf796b651b4a4c2` |
+| BNUSD/SICX Pool        | `cxfae05be1c2fea0ce98d3497c89c047f4533882b2` |
 
 
 ## ⭕ Periphery Layer
