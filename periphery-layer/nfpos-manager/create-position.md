@@ -71,6 +71,37 @@ public void depositIcx ()
 }
 ```
 
+## `withdraw`
+
+- 📚 Description: 
+  - Remove funds from the liquidity manager previously deposited by `Context.getCaller`
+- 🔒 Access: 
+  - Everyone
+
+### 🖊️ Signature
+
+```java
+@External
+public void withdraw (
+  Address token
+)
+```
+
+- `token`: The token address to withdraw
+
+### 🧪 Example call
+
+```java
+{
+  "to": NonFungiblePositionManager,
+  "method": "withdraw",
+  "params": {
+      "token": token,
+    }
+  }
+}
+```
+
 ## `mint`
 
 - 📚 Description: 
