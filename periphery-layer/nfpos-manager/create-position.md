@@ -155,8 +155,6 @@ public MintResult mint (
 
 - 📚 Description: 
   - Returns the position information associated with a given token ID. Throws if the token ID is not valid.
-- 🔒 Access: 
-  - Everyone
 
 ### 🖊️ Signature
 
@@ -198,6 +196,113 @@ Result:
   "tokensOwed0": "0x0",
   "tokensOwed1": "0x0"
 }
+```
+
+## `deposited`
+
+- 📚 Description: 
+  - Returns the amount of tokens previously deposited for a given user and token
+
+### 🖊️ Signature
+
+```java
+@External(readonly = true)
+public BigInteger deposited (
+  Address user, 
+  Address token
+)
+```
+
+- `user`: A user address who made a deposit
+- `token`: A token address
+
+### 🧪 Example call
+
+```java
+{
+  "to": NonFungiblePositionManager,
+  "method": "deposited",
+  "params": {
+    "user": alice,
+    "token": token
+  }
+}
+```
+
+Result:
+
+```java
+0x21e19e0c9bab240021f
+```
+
+## `depositedTokensSize`
+
+- 📚 Description: 
+  - Returns the size of the token list deposited
+
+### 🖊️ Signature
+
+```java
+@External(readonly = true)
+public int depositedTokensSize (
+  Address user
+)
+```
+
+- `user`: A user address who made a deposit
+
+### 🧪 Example call
+
+```java
+{
+  "to": NonFungiblePositionManager,
+  "method": "depositedTokensSize",
+  "params": {
+    "user": alice
+  }
+}
+```
+
+Result:
+
+```java
+0x2
+```
+
+## `depositedToken`
+
+- 📚 Description: 
+  - Returns the token address in the list given an index
+
+### 🖊️ Signature
+
+```java
+public Address depositedToken (
+  Address user, 
+  int index
+)
+```
+
+- `user`: A user address who made a deposit
+- `index`: The deposited token list index
+
+### 🧪 Example call
+
+```java
+{
+  "to": NonFungiblePositionManager,
+  "method": "depositedToken",
+  "params": {
+    "user": alice,
+    "index": "0x1"
+  }
+}
+```
+
+Result:
+
+```java
+cx000000000000000000000000000000000000000c // a token address
 ```
 
 # ⚙️ Structures
