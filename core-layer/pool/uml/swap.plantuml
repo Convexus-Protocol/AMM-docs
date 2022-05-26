@@ -20,14 +20,14 @@ group Transfer amount1 of token1
   ConvexusPool -> Token1 : **transfer** ( \n\
     recipient, \n\
     amount1, { \n\
-      "method": "pay" \n\
+      "method": "deposit" \n\
     } \n\
   )
 
   Token1 -> recipient : **tokenFallback** ( \n\
     ConvexusPool, \n\
     amount1, { \n\
-      "method": "pay" \n\
+      "method": "deposit" \n\
     } \n\
   )
 end group
@@ -50,14 +50,14 @@ group Transfer amount0 of token0
   Callee -> Token0 : **transfer** ( \n\
     ConvexusPool, \n\
     amount0, { \n\
-      "method": "pay" \n\
+      "method": "deposit" \n\
     } \n\
   )
 
   Token0 -> ConvexusPool : **tokenFallback** ( \n\
     Callee, \n\
     amount0, { \n\
-      "method": "pay" \n\
+      "method": "deposit" \n\
     } \n\
   )
 
