@@ -28,9 +28,9 @@
     * [Exact Input Swap](periphery-layer/swaprouter/multihop-swap/exact-input.md)
     * [Exact Output Swap](periphery-layer/swaprouter/multihop-swap/exact-output.md)
 * [Position Manager](periphery-layer/nfpos-manager/index.md)
-  * [Create a position](periphery-layer/nfpos-manager/create-position.md)
-  * [Collect rewards](periphery-layer/nfpos-manager/collect-rewards.md)
-  * [Modify a position](periphery-layer/nfpos-manager/modify-position.md)
+  * [Create a Position](periphery-layer/nfpos-manager/create-position.md)
+  * [Collect Rewards](periphery-layer/nfpos-manager/collect-rewards.md)
+  * [Modify a Position](periphery-layer/nfpos-manager/modify-position.md)
 * [Quoter](periphery-layer/quoter/index.md)
   * Single Swaps
     * [Exact Input Quote](periphery-layer/quoter/single-swap/exact-input.md)
@@ -41,13 +41,15 @@
 
 ## [ 📕 Commons ]
 
-* [Q64.96 price](commons/q6496.md)
+* [Q64.96 Price](commons/q6496.md)
 * [Swap Path](commons/swap-path.md)
 * [Ticks Maths](commons/ticks.md)
 
 ## [ ⚙️ Convexus SDK ]
 
-* [Coming soon](sdk/index.md)
+* [Introduction](sdk/index.md)
+  * [Quick Start](sdk/index.md)
+  * [Creating a Pool Instance](sdk/index.md)
 
 ## [ 📝 Convexus Contracts ]
 
