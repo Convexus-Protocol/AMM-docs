@@ -39,17 +39,17 @@
     * [Exact Input Quote](periphery-layer/quoter/multihop-swap/exact-input.md)
     * [Exact Output Quote](periphery-layer/quoter/multihop-swap/exact-output.md)
 
-## [ 📕 Commons ]
-
-* [Q64.96 Price](commons/q6496.md)
-* [Swap Path](commons/swap-path.md)
-* [Ticks Maths](commons/ticks.md)
-
 ## [ ⚙️ Convexus SDK ]
 
 * [Introduction](sdk/index.md)
   * [Quick Start](sdk/start/index.md)
   * [Creating a Pool Instance](sdk/pool/index.md)
+
+## [ 📕 Commons ]
+
+* [Q64.96 Price](commons/q6496.md)
+* [Swap Path](commons/swap-path.md)
+* [Ticks Maths](commons/ticks.md)
 
 ## [ 📝 Convexus Contracts ]
 
