@@ -48,8 +48,8 @@
 ## [ ⚙️ Convexus SDK ]
 
 * [Introduction](sdk/index.md)
-  * [Quick Start](sdk/index.md)
-  * [Creating a Pool Instance](sdk/index.md)
+  * [Quick Start](sdk/start/index.md)
+  * [Creating a Pool Instance](sdk/pool/index.md)
 
 ## [ 📝 Convexus Contracts ]
 
