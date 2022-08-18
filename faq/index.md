@@ -1,3 +1,5 @@
+## 🔃 Swap tokens
+
 <details>
 <summary>❓ How to swap a token against another ? </summary>
 
@@ -11,13 +13,7 @@ Please refer to the [`SwapRouter`](/periphery-layer/swaprouter/index.md) documen
 Please refer to the [`slot0`](/core-layer/pool/state.md#slot0) method. The `sqrtPriceX96` field contains the [Q64.96 price](/commons/q6496.md) of the pool. You can decode it to a human readable price like [this](/commons/q6496.md#how-to-decode-a-q64.96-to-a-floating-point-price).
 </details>
 
-
-<details>
-<summary>❓ How to get the list of active pools ?</summary>
-
-Please refer to the [`poolsSize`](/core-layer/factory/pools-management.md#poolssize) and [`pools`](/core-layer/factory/pools-management.md#pools) methods. The `poolsSize` method will return the total number of pools deployed. The `pools` method will return a pool address, given an index in the list.
-</details>
-
+## 💼 Liquidity management
 
 <details>
 <summary>❓ How to provide liquidity to a pool ?</summary>
@@ -38,6 +34,14 @@ Firstly, get the number of positions with the [`balanceOf`](https://docs.openzep
 First, the whole position liquidity need to be decreased using [`decreaseLiquidity`](/periphery-layer/nfpos-manager/modify-position.md#decreaseliquidity), then the tokens previously deposited can be retrieved using [`collect`](/periphery-layer/nfpos-manager/collect-rewards.md#collect). Finally, the position may be deleted with [`burn`](/periphery-layer/nfpos-manager/modify-position.md#burn).
 </details>
 
+
+## ⚙️ Pool management
+
+<details>
+<summary>❓ How to get the list of active pools ?</summary>
+
+Please refer to the [`poolsSize`](/core-layer/factory/pools-management.md#poolssize) and [`pools`](/core-layer/factory/pools-management.md#pools) methods. The `poolsSize` method will return the total number of pools deployed. The `pools` method will return a pool address, given an index in the list.
+</details>
 
 <details>
 <summary>❓ How to create a new pool ?</summary>
