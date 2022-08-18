@@ -39,6 +39,14 @@ First, the whole position liquidity need to be decreased using [`decreaseLiquidi
 </details>
 
 
+<details>
+<summary>❓ How to create a new pool ?</summary>
+
+You can create a new pool by calling the [`createPool`](/core-layer/factory/pools-management.md#createpool) method from the Factory. From there, if the pool was successfully created, you can retrieve its address using the [`getPool`](/core-layer/factory/pools-management.md#getpool) Factory method. Finally, you can finalize the pool creation using the [`initialize`](../core-layer/pool/initialization.md#initialize) method from that Pool contract.
+
+</details>
+
+
 ---
 
 Can't find your answer here ? Feel free to ask your question to the [Convexus #developer](https://discord.convexus.net/) Discord channel !
