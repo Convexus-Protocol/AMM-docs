@@ -60,7 +60,7 @@ interface State {
 
 ## Fetching Immutable Data
 
-Fetch the immutable data from the deployed V3 pool contract and return it to create a model of the pool.
+Fetch the immutable data from the deployed pool contract and return it to create a model of the pool.
 
 ```typescript
 async function getPoolImmutables(): Promise<Immutables> {
