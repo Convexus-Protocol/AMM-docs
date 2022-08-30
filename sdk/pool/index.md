@@ -89,8 +89,6 @@ async function getPoolImmutables(): Promise<Immutables> {
 
 Fetch the state data in with the same `Promise.all` style. This approach queries state data concurrently, rather than sequentially, to avoid out of sync data that may be returned if sequential queries are executed over the span of two blocks.
 
-> `sqrtPriceX96` and `sqrtRatioX96`, despite being named differently, are interchangeable values.
-
 ## Fetching State Data
 
 ```typescript
@@ -111,6 +109,8 @@ async function getPoolState() {
   return PoolState
 }
 ```
+
+> `sqrtPriceX96` and `sqrtRatioX96`, despite being named differently, are interchangeable values.
 
 ## Creating the Pool Instance
 
