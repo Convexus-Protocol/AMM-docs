@@ -14,7 +14,7 @@ Depending on your local configuration, you may need to update your tsconfig.json
 ```typescript
 import { Pool } from '@convexus/sdk'
 import { Token } from '@convexus/sdk-core'
-import IConvexusPool from 'artifacts/contracts/interfaces/ConvexusPool/ConvexusPool.json'
+import IConvexusPool from 'artifacts/contracts/ConvexusPool/ConvexusPool.json'
 ```
 
 Now we'll use the ICON Toolkit and update the `Contract` object with our imported ABI, alongside the pool address, provider, and network ID. Here we use the Berlin Network (nid 0x7).
