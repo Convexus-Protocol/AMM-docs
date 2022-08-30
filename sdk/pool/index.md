@@ -26,8 +26,9 @@ import { Contract } from '@convexus/icon-toolkit';
 const poolAddress = 'cx4f5661a3dfaafbc11d13d3ea80474870b37369ca'
 const httpProvider = new IconService.HttpProvider('https://berlin.net.solidwallet.io/api/v3');
 const iconService = new IconService(httpProvider);
+const berlinNid = 7;
 
-const poolContract = new Contract(poolAddress, IConvexusPool, iconService, 7)
+const poolContract = new Contract(poolAddress, IConvexusPool, iconService, berlinNid);
 ```
 
 ## Creating The Interfaces
@@ -189,7 +190,9 @@ import IConvexusPool from './artifacts/contracts/ConvexusPool/ConvexusPool.json'
 const poolAddress = 'cx4f5661a3dfaafbc11d13d3ea80474870b37369ca'
 const httpProvider = new IconService.HttpProvider('https://berlin.net.solidwallet.io/api/v3');
 const iconService = new IconService(httpProvider);
-const poolContract = new Contract(poolAddress, IConvexusPool, iconService, 7)
+const berlinNid = 7;
+
+const poolContract = new Contract(poolAddress, IConvexusPool, iconService, berlinNid);
 
 interface Immutables {
   factory: string
