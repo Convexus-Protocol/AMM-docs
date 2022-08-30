@@ -7,7 +7,7 @@ A "Pool" as we refer to it here does not mean an actual Convexus pool, but a mod
 
 ## Importing the ABI
 
-First you need to import the ConvexusPool ABI, either from the SDK repository or directly onchain using the `icx_getScoreApi` RPC call.
+First you need to import the ConvexusPool ABI, either from the SDK repository or directly onchain using the `icx_getScoreApi` RPC call. It is also available [here](https://github.com/Convexus-Protocol/convexus-sdk-js/blob/master/packages/sdk/src/artifacts/contracts/ConvexusPool/ConvexusPool.json).
 
 Depending on your local configuration, you may need to update your tsconfig.json to allow importing of `json` files with `"resolveJsonModule": true,`.
 
@@ -184,7 +184,7 @@ import IconService from 'icon-sdk-js'
 import { Contract, BigintIsh } from '@convexus/icon-toolkit';
 import { Token } from '@convexus/sdk-core';
 import { Pool } from '@convexus/sdk';
-import IConvexusPool from '../../artifacts/contracts/ConvexusPool/ConvexusPool.json'
+import IConvexusPool from './artifacts/contracts/ConvexusPool/ConvexusPool.json'
 
 const poolAddress = 'cx4f5661a3dfaafbc11d13d3ea80474870b37369ca'
 const httpProvider = new IconService.HttpProvider('https://berlin.net.solidwallet.io/api/v3');
