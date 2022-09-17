@@ -20,7 +20,7 @@
 | Position Manager       | [`cxfed2707f09f9bfd132c907f8bcf7fc3a109a1f85`](https://tracker.sejong.icon.community/contract/cxfed2707f09f9bfd132c907f8bcf7fc3a109a1f85) |
 | Pool ReadOnly          | [`cx332f9698a9972317aa36a5026cbeeb79c00976c0`](https://tracker.sejong.icon.community/contract/cx332f9698a9972317aa36a5026cbeeb79c00976c0) |
 | Quoter                 | [`cxbb14913bd4a20f0e698e64d88d7b8f0af411f7c2`](https://tracker.sejong.icon.community/contract/cxbb14913bd4a20f0e698e64d88d7b8f0af411f7c2) |
-
+| Pool Initializer                 | [`cx76d312264eed2e145f62f7a7724153f9d05ff4cc`](https://tracker.berlin.icon.community/contract/cx76d312264eed2e145f62f7a7724153f9d05ff4cc) |
 
 ## 🪙 Tokens
 

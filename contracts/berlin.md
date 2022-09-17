@@ -19,6 +19,7 @@
 | Position Manager       | [`cx468042ae19c14a3a1b7f30794024dbbdc220fce4`](https://tracker.berlin.icon.community/contract/cx468042ae19c14a3a1b7f30794024dbbdc220fce4) |
 | Pool ReadOnly          | [`cx1db551804fb385acd37fc90a13f631660043d1ea`](https://tracker.berlin.icon.community/contract/cx1db551804fb385acd37fc90a13f631660043d1ea) |
 | Quoter                 | [`cxfdc1c03cde8f9758fc686c77b9d5cce06e7632ea`](https://tracker.berlin.icon.community/contract/cxfdc1c03cde8f9758fc686c77b9d5cce06e7632ea) |
+| Pool Initializer                 | [`cxbb201b891324246a2c35fbcfb3db67145ab12b3a`](https://tracker.berlin.icon.community/contract/cxbb201b891324246a2c35fbcfb3db67145ab12b3a) |
 
 
 ## 🪙 Tokens
