@@ -8,6 +8,7 @@
 | BNUSD/USDC Pool        | [`cx4f5661a3dfaafbc11d13d3ea80474870b37369ca`](https://tracker.berlin.icon.community/contract/cx4f5661a3dfaafbc11d13d3ea80474870b37369ca) |
 | ICX/USDC Pool          | [`cx246e97ef6aaec8007a85426bcd27241f848d1678`](https://tracker.berlin.icon.community/contract/cx246e97ef6aaec8007a85426bcd27241f848d1678) |
 | SICX/USDC Pool         | [`cx67c9c8f23a51bcb0cd5915e512a10b81817fdb49`](https://tracker.berlin.icon.community/contract/cx67c9c8f23a51bcb0cd5915e512a10b81817fdb49) |
+| ICX/USDT Pool         | [`cxed920d5564555b9c685596d0f87d4c0f9ab8320f`](https://tracker.berlin.icon.community/contract/cxed920d5564555b9c685596d0f87d4c0f9ab8320f) |
 
 
 ## ⭕ Periphery Layer
