@@ -75,6 +75,23 @@ public Address pools(int index)
 - `index`: the index of the item to read from the deployed pools list
 
 
+## `poolExists`
+
+- 📚 Description:
+  - Check if the pool exists in the Factory
+
+### 🖊️ Signature
+
+```java
+@External(readonly = true)
+public boolean poolExists (
+    Address pool
+)
+```
+
+- `pool`: A pool address
+
+
 ## `getPool`
 
 - 📚 Description:

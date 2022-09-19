@@ -71,6 +71,36 @@ public void enableFeeAmount (
 }
 ```
 
+## `updatePool`
+
+- 📚 Description: 
+  - Update an existing pool contract given a pool address
+- 🔒 Access: 
+  - Factory Owner
+
+### 🖊️ Signature
+
+```java
+@External
+public void updatePool (
+  Address pool
+)
+```
+
+- `pool`: An existing pool address
+
+### 🧪 Example call
+
+```java
+{
+  "to": ConvexusFactory,
+  "method": "updatePool",
+  "params": {
+    "pool": "cx4f50d121c8bdbc16437cb569863f51039480a848", // a pool address
+  },
+}
+```
+
 # 👀 ReadOnly Methods
 
 ## `owner`
