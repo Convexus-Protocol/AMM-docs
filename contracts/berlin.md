@@ -4,33 +4,36 @@
 
 | Name | Address |
 |------------------------|----------------------------------------------|
-| Factory                | [`cx923993ec24429b97a1eb39af7745fb31121b1905`](https://tracker.berlin.icon.community/contract/cx923993ec24429b97a1eb39af7745fb31121b1905) |
-| BNUSD/USDC Pool        | [`cx4f5661a3dfaafbc11d13d3ea80474870b37369ca`](https://tracker.berlin.icon.community/contract/cx4f5661a3dfaafbc11d13d3ea80474870b37369ca) |
-| ICX/USDC Pool          | [`cx246e97ef6aaec8007a85426bcd27241f848d1678`](https://tracker.berlin.icon.community/contract/cx246e97ef6aaec8007a85426bcd27241f848d1678) |
-| SICX/USDC Pool         | [`cx67c9c8f23a51bcb0cd5915e512a10b81817fdb49`](https://tracker.berlin.icon.community/contract/cx67c9c8f23a51bcb0cd5915e512a10b81817fdb49) |
-| ICX/USDT Pool         | [`cxed920d5564555b9c685596d0f87d4c0f9ab8320f`](https://tracker.berlin.icon.community/contract/cxed920d5564555b9c685596d0f87d4c0f9ab8320f) |
-
+| Factory                | [`cxfebfa753e6b8720eb027a92ea7c4d176e737cc4f`](https://tracker.berlin.icon.community/contract/cxfebfa753e6b8720eb027a92ea7c4d176e737cc4f) |
+| BNUSD/ICX Pool        | [`cx96c66d92281301df9e48dba14cce5ecbac25ad8b`](https://tracker.berlin.icon.community/contract/cx96c66d92281301df9e48dba14cce5ecbac25ad8b) |
+| BNUSD/USDC Pool        | [`cx17c8cfede35b199a91d1705349b668c626c8e9e7`](https://tracker.berlin.icon.community/contract/cx17c8cfede35b199a91d1705349b668c626c8e9e7) |
+| USDC/ICX Pool        | [`cxf62cfd827aaf7e8b8d03efdd6e367eb97bdc0f44`](https://tracker.berlin.icon.community/contract/cxf62cfd827aaf7e8b8d03efdd6e367eb97bdc0f44) |
+| USDC/SICX Pool        | [`cx693cf32617c7ca8d592fd745cd6345777a9e2835`](https://tracker.berlin.icon.community/contract/cx693cf32617c7ca8d592fd745cd6345777a9e2835) |
+| USDT/ICX Pool        | [`cxde221cb38827f0de15bd223959115e48e40858b9`](https://tracker.berlin.icon.community/contract/cxde221cb38827f0de15bd223959115e48e40858b9) |
+| WETH/CRV Pool        | [`cx52d41d4a5dc857d5f9817302e4208edb596dcd4d`](https://tracker.berlin.icon.community/contract/cx52d41d4a5dc857d5f9817302e4208edb596dcd4d) |
 
 ## ⭕ Periphery Layer
 
 | Name | Address |
-|------------------------|----------------------------------------------|
-| Swap Router            | [`cx8cbd8b4a66add08e02a8e3ddcab206c7656ebd56`](https://tracker.berlin.icon.community/contract/cx8cbd8b4a66add08e02a8e3ddcab206c7656ebd56) |
-| Position Descriptor    | [`cxad0c5bc94b8356ab71c6f7dd17550170bb98ccfc`](https://tracker.berlin.icon.community/contract/cxad0c5bc94b8356ab71c6f7dd17550170bb98ccfc) |
-| Position Manager       | [`cx468042ae19c14a3a1b7f30794024dbbdc220fce4`](https://tracker.berlin.icon.community/contract/cx468042ae19c14a3a1b7f30794024dbbdc220fce4) |
-| Pool ReadOnly          | [`cx1db551804fb385acd37fc90a13f631660043d1ea`](https://tracker.berlin.icon.community/contract/cx1db551804fb385acd37fc90a13f631660043d1ea) |
-| Quoter                 | [`cxfdc1c03cde8f9758fc686c77b9d5cce06e7632ea`](https://tracker.berlin.icon.community/contract/cxfdc1c03cde8f9758fc686c77b9d5cce06e7632ea) |
-| Pool Initializer                 | [`cxbb201b891324246a2c35fbcfb3db67145ab12b3a`](https://tracker.berlin.icon.community/contract/cxbb201b891324246a2c35fbcfb3db67145ab12b3a) |
+|-------------------------|----------------------------------------------|
+| Swap Router             | [`cx379f1ffc4e3d39108a7219c5752275ea7dd581e4`](https://tracker.berlin.icon.community/contract/cx379f1ffc4e3d39108a7219c5752275ea7dd581e4) |
+| Position Descriptor     | [`cxde577441b0e538da9bc2c080b05a5b3097675d94`](https://tracker.berlin.icon.community/contract/cxde577441b0e538da9bc2c080b05a5b3097675d94) |
+| Position Manager        | [`cx63681ac43681f306c05298b715dcef57a9fbb18c`](https://tracker.berlin.icon.community/contract/cx63681ac43681f306c05298b715dcef57a9fbb18c) |
+| Pool ReadOnly           | [`cxa6ac93e4b601dbde627e4b962c64a9bd574fd309`](https://tracker.berlin.icon.community/contract/cxa6ac93e4b601dbde627e4b962c64a9bd574fd309) |
+| Quoter                  | [`cxb30a8e7ec6688b8f2815432018a9dd3221df508d`](https://tracker.berlin.icon.community/contract/cxb30a8e7ec6688b8f2815432018a9dd3221df508d) |
+| Pool Initializer        | [`cx6abd1685c27f04f95e47f0200ee3597a182e0e9a`](https://tracker.berlin.icon.community/contract/cx6abd1685c27f04f95e47f0200ee3597a182e0e9a) |
 
 
 ## 🪙 Tokens
 
 | Symbol | Address |
 |--------|----------------------------------------------|
-| BNUSD  | [`cx7a5be2907bc1f4d6fae0462df08e7a21972d7347`](https://tracker.berlin.icon.community/contract/cx7a5be2907bc1f4d6fae0462df08e7a21972d7347) |
-| USDC   | [`cxd57fe1c5e63385f412b814634102609e8a987e3a`](https://tracker.berlin.icon.community/contract/cxd57fe1c5e63385f412b814634102609e8a987e3a) |
-| SICX   | [`cxb59c0d63efab0c1b02aac378f7355de82ff33337`](https://tracker.berlin.icon.community/contract/cxb59c0d63efab0c1b02aac378f7355de82ff33337) |
-
+| bnUSD  | [`cx196276887ec398a1fb41b335f9260fbb300c684b`](https://tracker.berlin.icon.community/contract/cx196276887ec398a1fb41b335f9260fbb300c684b) |
+| CRV  | [`cxc8373f6f2654a9c8b689059aef58aefb9f878e12`](https://tracker.berlin.icon.community/contract/cxc8373f6f2654a9c8b689059aef58aefb9f878e12) |
+| sICX  | [`cx79ada8b605380c84507d42534080ada30c77602c`](https://tracker.berlin.icon.community/contract/cx79ada8b605380c84507d42534080ada30c77602c) |
+| USDC  | [`cxa818e190782c7bc64c1ec12512c7f8f3171fc8cf`](https://tracker.berlin.icon.community/contract/cxa818e190782c7bc64c1ec12512c7f8f3171fc8cf) |
+| USDT  | [`cxa2895912e90f92e17c6df7e382c04745c7b6a9ce`](https://tracker.berlin.icon.community/contract/cxa2895912e90f92e17c6df7e382c04745c7b6a9ce) |
+| WETH  | [`cx1126c5dc7115daea7f55d6b6cf0eb63adeb3529f`](https://tracker.berlin.icon.community/contract/cx1126c5dc7115daea7f55d6b6cf0eb63adeb3529f) |
 
 # 🚰 Faucets
 
