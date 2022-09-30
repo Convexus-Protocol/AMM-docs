@@ -44,10 +44,12 @@ private void exactOutput (
     "_data": hex({
       "method": "exactOutput",
       "params": {
-        "path": hex([token1, 3000, token2, 3000, token0]) // The parameter path is encoded as (tokenOut, fee, tokenIn/tokenOut, fee, tokenIn). The tokenIn/tokenOut field is the shared token between the two pools used in the multiple pool swap. In this case token2 is the "shared" token. For an exactOutput swap, the first swap that occurs is the swap which returns the eventual desired token. In this case, our desired output token is token1 so that swap happens first, and is encoded in the path accordingly.
-        "recipient": recipient,
-        "deadline": "0x61e92f6b", // in seconds
-        "amountOut": "0x1bc16d674ec80000", // 2 * 10**18
+        "params": {
+          "path": hex([token1, 3000, token2, 3000, token0]) // The parameter path is encoded as (tokenOut, fee, tokenIn/tokenOut, fee, tokenIn). The tokenIn/tokenOut field is the shared token between the two pools used in the multiple pool swap. In this case token2 is the "shared" token. For an exactOutput swap, the first swap that occurs is the swap which returns the eventual desired token. In this case, our desired output token is token1 so that swap happens first, and is encoded in the path accordingly.
+          "recipient": recipient,
+          "deadline": "0x61e92f6b", // in seconds
+          "amountOut": "0x1bc16d674ec80000", // 2 * 10**18
+        }
       }
     })
   },
