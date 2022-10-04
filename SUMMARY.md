@@ -42,8 +42,12 @@
 ## [ ⚙️ Convexus SDK ]
 
 * [Introduction](sdk/index.md)
-  * [Quick Start](sdk/start/index.md)
-  * [Creating a Pool Instance](sdk/pool/index.md)
+  * [Python](sdk/py/index.md)
+    * [Quick Start](sdk/py/start/index.md)
+    * [Creating a Pool Instance](sdk/py/pool/index.md)
+  * [Javascript](sdk/js/index.md)
+    * [Creating a Pool Instance](sdk/js/pool/index.md)
+    * [Quick Start](sdk/js/start/index.md)
 
 ## [ 📕 Commons ]
 
