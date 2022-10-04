@@ -46,8 +46,8 @@
     * [Quick Start](sdk/py/start/index.md)
     * [Creating a Pool Instance](sdk/py/pool/index.md)
   * [Javascript](sdk/js/index.md)
-    * [Creating a Pool Instance](sdk/js/pool/index.md)
     * [Quick Start](sdk/js/start/index.md)
+    * [Creating a Pool Instance](sdk/js/pool/index.md)
 
 ## [ 📕 Commons ]
 
