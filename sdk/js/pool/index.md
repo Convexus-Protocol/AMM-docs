@@ -77,12 +77,11 @@ import IconService from 'icon-sdk-js'
 // Create an ICON service object
 const httpProvider = new IconService.HttpProvider('https://berlin.net.solidwallet.io/api/v3');
 const iconService = new IconService(httpProvider);
-const berlinNid = 7;
 
 // Create a Pool Contract instance
 const poolAddress = 'cxcc48f601776b5998625017c7d220d09a150aa2ad'
 const poolAbi = await Contract.getAbi(iconService, poolAddress)
-const poolContract = new Contract(poolAddress, poolAbi, iconService, iconService, berlinNid);
+const poolContract = new Contract(poolAddress, poolAbi, iconService, iconService, 7);
 
 const pool = await Pool.fromContract(poolContract)
 console.log(pool)
